@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../images/profile-pic.jpg';
+import profile from './images/profile-pic.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faGithub,
@@ -10,9 +10,7 @@ import {
 export default function App() {
 	return (
 		<div className="container">
-			<div className="img--container">
-				<img src={profile} alt="my selfie"></img>
-			</div>
+				<img src={profile} alt="my selfie" className="profile-pic"></img>
 			<div className="body--container">
 				<h2 className="name">Manan Patel</h2>
 				<h4 className="title">Frontend Developer</h4>
