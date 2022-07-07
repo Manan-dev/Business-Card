@@ -6,23 +6,36 @@ import {
 	faLinkedin,
 	faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function App() {
 	return (
 		<div className="container">
-				<img src={profile} alt="my selfie" className="profile-pic"></img>
+			<img src={profile} alt="my selfie" className="profile-pic"></img>
 			<div className="body--container">
 				<h2 className="name">Manan Patel</h2>
 				<h4 className="title">Frontend Developer</h4>
 				<h5 className="email">Mananpatel6902@gmail.com</h5>
 			</div>
 			<div className="social--buttons">
-				<button>Email</button>
-				<button>LinkedIn</button>
+				<button className="email--button">
+					<FontAwesomeIcon
+						className="email--icon"
+						icon={faEnvelope}
+					/>
+					Email
+				</button>
+				<button className="linkedin--button">
+					<FontAwesomeIcon
+						className="linkedin--icon"
+						icon={faLinkedin}
+					/>
+					LinkedIn
+				</button>
 			</div>
 			<div className="about--container">
-				<h4 className="about--title">About</h4>
-				<p>
+				<h4 className="about--title">About Me</h4>
+				<p className="about--description">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 					Commodi, quibusdam nemo dolor dolorum ex aliquam error
 					delectus itaque in impedit placeat soluta consectetur magnam
@@ -31,7 +44,7 @@ export default function App() {
 			</div>
 			<div className="interests--container">
 				<h4 className="interests--title">Interests</h4>
-				<p>
+				<p className="interests--description">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 					Neque, ad libero iste laudantium assumenda totam quis
 					perspiciatis fugit placeat odit amet quaerat asperiores
