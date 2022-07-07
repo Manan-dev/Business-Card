@@ -34,8 +34,8 @@ export default function App() {
 				</button>
 			</div>
 			<div className="about--container">
-				<h4 className="about--title">About</h4>
-				<p>
+				<h4 className="about--title">About Me</h4>
+				<p className="about--description">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 					Commodi, quibusdam nemo dolor dolorum ex aliquam error
 					delectus itaque in impedit placeat soluta consectetur magnam
@@ -44,7 +44,7 @@ export default function App() {
 			</div>
 			<div className="interests--container">
 				<h4 className="interests--title">Interests</h4>
-				<p>
+				<p className="interests--description">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 					Neque, ad libero iste laudantium assumenda totam quis
 					perspiciatis fugit placeat odit amet quaerat asperiores
