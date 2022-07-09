@@ -25,13 +25,22 @@ export default function App() {
 					/>
 					Email
 				</div>
-				<button className="linkedin--button">
+				<a
+					href="https://www.linkedin.com/in/manan-dev/"
+					target="_blank"
+					rel="noreferrer"
+					className="linkedin--button"
+				>
 					<FontAwesomeIcon
 						className="linkedin--icon"
 						icon={faLinkedin}
 					/>
 					LinkedIn
-				</button>
+				</a>
+				{/* <button className="linkedin--button">
+					
+					LinkedIn
+				</button> */}
 			</div>
 			<div className="about--container">
 				<h4 className="about--title">About Me</h4>
