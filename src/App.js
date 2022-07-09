@@ -9,22 +9,22 @@ import {
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function App() {
+	const goToEmail = () => window.open('mailto:mananpatel6902@gmail.com');
 	return (
 		<div className="container">
 			<img src={profile} alt="my selfie" className="profile-pic"></img>
 			<div className="body--container">
 				<h2 className="name">Manan Patel</h2>
 				<h4 className="title">Frontend Developer</h4>
-				<h5 className="email">Mananpatel6902@gmail.com</h5>
 			</div>
 			<div className="social--buttons">
-				<button className="email--button">
+				<div className="email--button" onClick={goToEmail}>
 					<FontAwesomeIcon
 						className="email--icon"
 						icon={faEnvelope}
 					/>
 					Email
-				</button>
+				</div>
 				<button className="linkedin--button">
 					<FontAwesomeIcon
 						className="linkedin--icon"
@@ -52,9 +52,33 @@ export default function App() {
 				</p>
 			</div>
 			<div className="socials--container">
-				<FontAwesomeIcon className="icon" icon={faGithub} />
-				<FontAwesomeIcon className="icon" icon={faLinkedin} />
-				<FontAwesomeIcon className="icon" icon={faDiscord} />
+				<a
+					href="https://github.com/manan-dev"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FontAwesomeIcon
+						className="icon icon--secondary"
+						icon={faGithub}
+					/>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/manan-dev/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FontAwesomeIcon className="icon" icon={faLinkedin} />
+				</a>
+				<a
+					href="https://discordapp.com/users/407339303421870080/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<FontAwesomeIcon
+						className="icon icon--secondary"
+						icon={faDiscord}
+					/>
+				</a>
 			</div>
 		</div>
 	);
