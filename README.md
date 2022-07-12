@@ -4,17 +4,17 @@
 
 ## To View My Business Card Locally
 
-## Step 1
+### Step 1
 
-### Clone this repository
+#### Clone this repository
 
     git clone <url>
 
-## Step 2
+### Step 2
 
     npm install
 
-## Step 3
+### Step 3
 
     npm start
 
