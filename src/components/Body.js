@@ -6,19 +6,17 @@ export default function Body() {
 			<div className="about--container">
 				<h4 className="about--title">About Me</h4>
 				<p className="about--description">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-					Commodi, quibusdam nemo dolor dolorum ex aliquam error
-					delectus itaque in impedit placeat soluta consectetur magnam
-					explicabo, fugiat corporis ut, quam quia.
+					I am a Computer Science student with a particular interest
+					in making things simple and automating daily tasks. I try to
+					keep up with evolving technology and best practices, and am
+					always looking for new things to learn.
 				</p>
 			</div>
 			<div className="interests--container">
 				<h4 className="interests--title">Interests</h4>
 				<p className="interests--description">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Neque, ad libero iste laudantium assumenda totam quis
-					perspiciatis fugit placeat odit amet quaerat asperiores
-					voluptas, minus quae, architecto rem porro at?
+					Food expert. Internet fanatic. Volleyball. Machine Learning.
+					Programming. Web Development. Meeting new people.
 				</p>
 			</div>
 		</div>
