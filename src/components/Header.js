@@ -11,7 +11,16 @@ export default function Header() {
 			<img src={profile} alt="my selfie" className="profile-pic"></img>
 			<div className="body--container">
 				<h2 className="name">Manan Patel</h2>
-				<h4 className="title">Frontend Developer</h4>
+				<h4 className="title">
+					Student at{' '}
+					<a
+						href="https://www.utk.edu"
+						target="_blank"
+						rel="noreferrer"
+					>
+						UTK
+					</a>
+				</h4>
 			</div>
 			<div className="social--buttons">
 				<div className="email--button" onClick={goToEmail}>
