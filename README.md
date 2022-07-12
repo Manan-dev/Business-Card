@@ -2,6 +2,10 @@
 
 <br>
 
+### _This Project was solely created to practice React.js and CSS_
+
+<br>
+
 ## To View My Business Card Locally
 
 ## Step 1
